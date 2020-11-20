@@ -1,0 +1,15 @@
+#import "FlutterCustomvisionPlugin.h"
+#if __has_include(<flutter_customvision/flutter_customvision-Swift.h>)
+#import <flutter_customvision/flutter_customvision-Swift.h>
+#else
+// Support project import fallback if the generated compatibility header
+// is not copied when this plugin is created as a library.
+// https://forums.swift.org/t/swift-static-libraries-dont-copy-generated-objective-c-header/19816
+#import "flutter_customvision-Swift.h"
+#endif
+
+@implementation FlutterCustomvisionPlugin
++ (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
+  [SwiftFlutterCustomvisionPlugin registerWithRegistrar:registrar];
+}
+@end

@@ -1,0 +1,35 @@
+PODS:
+  - camera (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_customvision (0.0.1):
+    - Flutter
+    - MicrosoftCustomVisionMobile
+  - MicrosoftCustomVisionMobile (1.0.0)
+
+DEPENDENCIES:
+  - camera (from `.symlinks/plugins/camera/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_customvision (from `.symlinks/plugins/flutter_customvision/ios`)
+
+SPEC REPOS:
+  trunk:
+    - MicrosoftCustomVisionMobile
+
+EXTERNAL SOURCES:
+  camera:
+    :path: ".symlinks/plugins/camera/ios"
+  Flutter:
+    :path: Flutter
+  flutter_customvision:
+    :path: ".symlinks/plugins/flutter_customvision/ios"
+
+SPEC CHECKSUMS:
+  camera: a0ca5080336f7af47b88436e5e26da3dee5568f0
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_customvision: d47ad5356a86d4080cf061257c9efa7a3435ae82
+  MicrosoftCustomVisionMobile: 646022a7054247a0cd6c7d4505b8a4c7e5f427f8
+
+PODFILE CHECKSUM: 0fe8a36e72c7f87d63ee598793e246460cb37d7e
+
+COCOAPODS: 1.9.3
